@@ -30,8 +30,6 @@ Create a new JavaScript file named script.js and add the following code to imple
 ```javascript
 ```
 
-
-
 ### Demo
 
 Click [here](https://evanckennedy.github.io/todo-list-application-tutorial/) to test the application
