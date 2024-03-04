@@ -34,4 +34,4 @@ Create a new JavaScript file named script.js and add the following code to imple
 
 ### Demo
 
-Click [here](/) to test the application
+Click [here](https://evanckennedy.github.io/todo-list-application-tutorial/) to test the application
