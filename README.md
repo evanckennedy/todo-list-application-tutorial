@@ -165,6 +165,17 @@ will delete them.
 
 The complete JavaScript file for this app can be found [here](https://github.com/evanckennedy/todo-list-application-tutorial/blob/main/assets/script/script.js).
 
+### How to Use
+
+#### Once you've set up the to-do list application, follow these simple steps to manage your tasks:
+1. Adding a Task:
+    - Type your task into the input field labeled "Add new task".
+    - Press the "Add" button or hit the "Enter" key to add the task to your list.
+2. Marking Tasks as Complete:
+    - Click on any task in the list to mark it as complete. It will be crossed out to indicate its completion.
+3. Removing Tasks:
+    - To delete a task, click on the "x" button next to the task you want to remove.
+
 ### Customization and Further Development
 This is a very basic foundation! Here are some ideas to enhance your project:
 
