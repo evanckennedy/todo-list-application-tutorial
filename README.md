@@ -99,7 +99,7 @@ ul li span {
 
 ```
 
-This is a very basic styling. Refer to [main.css](https://github.com/evanckennedy/todo-list-application-tutorial/blob/main/assets/style/main.css) for more!
+This is a very basic styling. Click [here](https://github.com/evanckennedy/todo-list-application-tutorial/blob/main/assets/style/main.css) to see more!
 
 ### Implement JavaScript Functionality
 The following JavaScript code makes your to-do list functional:
@@ -173,4 +173,4 @@ This is a very basic foundation! Here are some ideas to enhance your project:
 - Task Editing: Add the ability to edit existing tasks.
 
 ### Demo
-Click [here](https://evanckennedy.github.io/todo-list-application-tutorial/) to test the application
+Click [here](https://evanckennedy.github.io/todo-list-application-tutorial/) to test the application.
