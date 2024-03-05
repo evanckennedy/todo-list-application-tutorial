@@ -22,14 +22,13 @@ body {
   max-width: 500px;
   width: 100%;
   margin-inline: auto;
-  padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   padding: 25px 25px 60px;
 }
 
 .todo-container h2 {
-  font-size: 22;
+  font-size: 22px;
   color: #333;
   margin-bottom: 13px;
 }

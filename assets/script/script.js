@@ -20,19 +20,20 @@ const addTask = () => {
   input.value = '';
 };
 
-addButton.addEventListener('click', addTask)
+addButton.addEventListener('click', addTask);
 input.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
     addTask();
   }
 });
 
-listContainer.addEventListener('click', (event) => {
+const modifyTasks = (event) => {
   if (event.target.tagName === 'LI') {
     event.target.classList.toggle('completed');
   } else if (event.target.tagName === 'SPAN') {
     event.target.parentElement.remove();
   }
-});
+};
 
 listContainer.addEventListener('click', modifyTasks);
+
