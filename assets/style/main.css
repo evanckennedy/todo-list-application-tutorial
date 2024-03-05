@@ -1,8 +1,9 @@
 @charset "utf-8";
 
+/* MAIN */
 body {
-  /* Feel free to change the font to suit your preference */
   font-family: 'Noto Sans', 'Open Sans', arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
 main {
@@ -10,12 +11,6 @@ main {
   width: 100%;
   display: grid;
   place-items: center;
-}
-
-/* MAIN */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
 }
 
 .todo-container {
