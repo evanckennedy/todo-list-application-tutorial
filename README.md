@@ -156,7 +156,7 @@ const modifyTasks = (event) => {
 listContainer.addEventListener('click', modifyTasks); 
 ```
 
-To summarize the JavaScript implemntation: 
+To summarize the JavaScript implementation: 
 - We select the input field, button, and list container.
 - The addTask function handles creating new list items and adding them to the list.
 - Event listeners trigger addTask when the button is clicked or Enter is pressed.
