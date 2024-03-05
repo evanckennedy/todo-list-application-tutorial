@@ -2,21 +2,27 @@
 In this tutorial, you will learn how to create a basic to-do list application using HTML, CSS, and JavaScript.
 
 ### Prerequisites
-Basic knowledge of HTML, CSS, and JavaScript.
-A text editor or code editor (like VS Code, Sublime Text, or Notepad++).
-A web browser to view your results.
+- Basic knowledge of HTML, CSS, and JavaScript.
+- A text editor or code editor (like VS Code, Sublime Text, or Notepad++).
+- A web browser to view your results.
 
 ### Setting Up the HTML Structure
 The core structure of our to-do list is defined within the body of your HTML file:
 
 ```html
 <div class="todo-container">
+    <!-- Title of the to-do list -->
     <h2>To-Do List</h2>
+    <!-- Input field and add button -->
     <div class="row">
+        <!-- Input field for adding new tasks -->
         <input type="text" class="todo-input" placeholder="Add new task">
+        <!-- Button to add new tasks -->
         <button class="add-todo-button">Add</button>
     </div>
+    <!-- List of tasks -->
     <ul class="todo-list-container">
+        <!-- List items will be dynamically added here -->
     </ul>
 </div>
 ```
@@ -26,7 +32,9 @@ The core structure of our to-do list is defined within the body of your HTML fil
 - An unordered list (todo-list-container) to display tasks.
 
 ### Styling with CSS (Optional)
-Below, I have included some basic CSS to make your to-do list look presentable.  
+The most important parts of styling are ensuring the list items display 
+correctly and adding a bit of style to the button. (Be sure to modify the padding 
+and margin to suit your preference.)
 
 ```css
 .todo-container {
@@ -88,11 +96,8 @@ ul li span {
 }
 
 ```
-The most important parts of styling are ensuring the list items display correctly and 
-adding a bit of style to the button. Be sure to modify the padding 
-and margin to suit your preference.
 
-Again, this is a very basic styling. Refer to main.css for more!
+This is a very basic styling. Refer to main.css for more!
 
 ### Implement JavaScript Functionality
 The following JavaScript code makes your to-do list functional:
