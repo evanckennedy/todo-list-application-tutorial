@@ -18,6 +18,7 @@ const addTask = () => {
   }
 
   input.value = '';
+  saveData();
 };
 
 addButton.addEventListener('click', addTask);
@@ -30,10 +31,21 @@ input.addEventListener('keydown', (event) => {
 const modifyTasks = (event) => {
   if (event.target.tagName === 'LI') {
     event.target.classList.toggle('completed');
+    saveData();
   } else if (event.target.tagName === 'SPAN') {
     event.target.parentElement.remove();
+    saveData();
   }
 };
 
 listContainer.addEventListener('click', modifyTasks);
 
+const saveData = () => {
+  localStorage.setItem("data", listContainer.innerHTML);
+};
+
+const showTask = () => {
+  listContainer.innerHTML = localStorage.getItem("data")
+};
+
+showTask();
