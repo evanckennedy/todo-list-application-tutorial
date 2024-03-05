@@ -140,7 +140,7 @@ input.addEventListener('keydown', (event) => {
 });
 ```
 
-- Create a function This function handles the logic for clicking on list items 
+- Create a function that handles the logic for clicking on list items 
 and the 'x' delete button.
 ```javascript
 const modifyTasks = (event) => {
