@@ -31,6 +31,8 @@ The core structure of our to-do list is defined within the body of your HTML fil
 - An "Add" button (add-todo-button).
 - An unordered list (todo-list-container) to display tasks.
 
+The complete HTML structure for this app can be found [here] (https://github.com/evanckennedy/todo-list-application-tutorial/blob/main/index.html)
+
 ### Styling with CSS (Optional)
 The most important parts of styling are ensuring the list items display 
 correctly and adding a bit of style to the button. (Be sure to modify the padding 
@@ -97,7 +99,7 @@ ul li span {
 
 ```
 
-This is a very basic styling. Refer to main.css for more!
+This is a very basic styling. Refer to [main.css](https://github.com/evanckennedy/todo-list-application-tutorial/blob/main/assets/style/main.css) for more!
 
 ### Implement JavaScript Functionality
 The following JavaScript code makes your to-do list functional:
