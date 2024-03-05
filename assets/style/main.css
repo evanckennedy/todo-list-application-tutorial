@@ -58,6 +58,7 @@ button {
 
 .add-todo-button {
   background-color: #4caf50;
+  transition: all 0.15s ease-in-out;
 }
 
 .add-todo-button:hover {
@@ -94,6 +95,7 @@ ul li span {
   right: 0;
   line-height: 35px;
   text-align: center;
+  transition: all 0.15s ease-in-out;
 }
 
 ul li span:hover {
