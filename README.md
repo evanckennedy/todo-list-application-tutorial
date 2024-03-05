@@ -73,12 +73,13 @@ button {
 
 ul {
     list-style-type: none;  /* Removes default bullet points */
+    word-wrap: break-word;  /* Wraps text */
 }
 
 ul li {
-    padding: 0 10px;        /* Adds a small padding to list items */
-    cursor: pointer;        /* Changes cursor on hover */
-    position: relative;     /* For positioning the delete 'x' */
+    padding: 0 35px 0 10px;     /* Adds padding to list items */
+    cursor: pointer;            /* Changes cursor on hover */
+    position: relative;         /* For positioning the delete 'x' */
 }
 
 ul li.completed {
