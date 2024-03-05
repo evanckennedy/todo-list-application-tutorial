@@ -33,7 +33,7 @@ The core structure of our to-do list is defined within the body of your HTML fil
 
 The complete HTML structure for this app can be found [here](https://github.com/evanckennedy/todo-list-application-tutorial/blob/main/index.html).
 
-### Styling with CSS (Optional)
+### Styling with CSS
 The most important parts of styling are ensuring the list items display 
 correctly and adding a bit of style to the button. (Be sure to modify the padding 
 and margin to suit your preference.)
